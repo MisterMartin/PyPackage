@@ -66,3 +66,9 @@ if you need to verify what is being installed.
 python3 -m PyPackage        # Runs PyPackage.py
 python3 -m PyPackage.script # Runs script.py
 ```
+
+## Caveats
+
+- The python paths can get very confused if you are trying to run the installed
+  module, but your working directory is where the source code is located. 
+  Change to a neutral directory first.
