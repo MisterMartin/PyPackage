@@ -1,4 +1,5 @@
 # PyPackage
+
 An example for creating a deployable Python package.
 
 This shows one way to create a Python package, that can be installed from
@@ -6,6 +7,14 @@ a local directory, a local Git repo, or a remote repo. It also
 shows how to make the package executable from the command line.
 
 It's very easy, once you know a few tricks.
+
+Try:
+```sh
+pip3 install git+https://github.com/MisterMartin/PyPackage
+python3 -m PyPackage
+python3 -m PyPackage.script
+pip3 uninstall PyPackage
+```
 
 ## What you need
 
