@@ -19,8 +19,9 @@ Perhaps you don't need all of these, but they are pretty standard.
 1. *\_\_main\_\_.py*: If you want to have a default way to run the package.
 1. Source: Your source code, in a subdirectory.
 
-"requests" was specified just as an example dependency. You can specify version
-requirements for the dependencies.
+"requests" was specified just as an example dependency in `pyproject.toml`.
+You can also specify versionrequirements for the dependencies.
+
 ## Directory structure
 
 ```sh
