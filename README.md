@@ -28,8 +28,9 @@ Perhaps you don't need all of these, but they are pretty standard.
 1. *\_\_main\_\_.py*: If you want to have a default way to run the package.
 1. Source: Your source code, in a subdirectory.
 
-"requests" was specified just as an example dependency. You can specify version
-requirements for the dependencies.
+"requests" was specified just as an example dependency in `pyproject.toml`.
+You can also specify versionrequirements for the dependencies.
+
 ## Directory structure
 
 ```sh
@@ -74,3 +75,9 @@ if you need to verify what is being installed.
 python3 -m PyPackage        # Runs PyPackage.py
 python3 -m PyPackage.script # Runs script.py
 ```
+
+## Caveats
+
+- The python paths can get very confused if you are trying to run the installed
+  module, but your working directory is where the source code is located. 
+  Change to a neutral directory first.
