@@ -15,8 +15,8 @@ Perhaps you don't need all of these, but they are pretty standard.
    package names, and they are magically installed.
 1. *LICENSE*
 1. *README.md*
-1. *__init__.py*: Updates the path so that python can find modules.
-1. *__main__.py*: If you want to have a default way to run the package.
+1. *\_\_init\_\_.py*: Updates the path so that python can find modules.
+1. *\_\_main\_\_.py*: If you want to have a default way to run the package.
 1. Source: Your source code, in a subdirectory.
 
 "requests" was specified just as an example dependency. You can specify version
