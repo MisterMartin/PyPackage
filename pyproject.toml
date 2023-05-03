@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyPackage"
+version = "1.0.0"
+dependencies = [
+   "requests"
+]
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+  { name="MisterMartin", email="mistermartin@users.noreply.github.com" },
+]
+description = "Example of creating a deployable Python package."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GPL License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MisterMartin/PyPackage"
+"Bug Tracker" = "https://github.com/MisterMartin/PyPackage"

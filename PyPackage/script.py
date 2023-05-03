@@ -1,0 +1,1 @@
+print(f'This script can be run using: "python3 -m {__package__}.script"')
