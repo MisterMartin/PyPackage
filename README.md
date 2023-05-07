@@ -16,7 +16,7 @@ python3 -m PyPackage.script
 pip3 uninstall PyPackage
 ```
 
-## What you need
+## Files and directories to make a package
 
 Perhaps you don't need all of these, but they are pretty standard.
 
